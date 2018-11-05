@@ -28,5 +28,5 @@ const dog = {
 //  通过props向组件传递数据
 //  ReactDOM.render(<Hello dog={dog} ></Hello>,document.getElementById('app'))
 //  ReactDOM.render(<Hello name={dog.name} age={dog.age} gender={dog.gender} ></Hello>,document.getElementById('app'))
- ReactDOM.render(<Hello {...dog}></Hello>,document.getElementById('app'))
+ ReactDOM.render(<Hello {...dog}></Hello>,document.getElementById('root'))
  
